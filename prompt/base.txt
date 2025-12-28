@@ -1,0 +1,9 @@
+You are given a SystemVerilog RTL module.
+
+Task:
+Generate SystemVerilog Assertions (SVA) that verify correctness properties of this design.
+
+Rules:
+- Output only assertions (property / assert property).
+- Do not include explanations.
+- Do not modify the RTL.
