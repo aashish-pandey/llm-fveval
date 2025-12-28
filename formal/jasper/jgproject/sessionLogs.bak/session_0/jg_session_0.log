@@ -1,0 +1,73 @@
+#----------------------------------------
+# JasperGold Version Info
+# tool      : JasperGold 2018.09
+# platform  : Linux 5.15.0-164-generic
+# version   : 2018.09p001 64 bits
+# build date: 2018.11.02 18:06:33 PDT
+#----------------------------------------
+# started Sun Dec 28 17:18:37 EST 2025
+# hostname  : ece-rh810-10
+# pid       : 1681860
+# arguments : '-label' 'session_0' '-console' 'ece-rh810-10:40089' '-nowindow' '-style' 'windows' '-exitonerror' '-data' 'AQAAADx/////AAAAAAAAA3oBAAAAEABMAE0AUgBFAE0ATwBWAEU=' '-proj' '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/jgproject/sessionLogs/session_0' '-init' '-hidden' '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/jgproject/.tmp/.initCmds.tcl' 'run_fpv.tcl' '-hidden' '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/jgproject/.tmp/.postCmds.tcl'
+
+Any disclosure about the Cadence Design Systems software or its use
+model to any third party violates the written Non-Disclosure Agreement
+between Cadence Design Systems, Inc. and the customer.
+
+THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF
+CADENCE DESIGN SYSTEMS, INC. USE, DISCLOSURE, OR REPRODUCTION IS
+PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF CADENCE
+DESIGN SYSTEMS, INC.
+
+Copyright (C) 2000-2018 Cadence Design Systems, Inc. All Rights
+Reserved.  Unpublished -- rights reserved under the copyright laws of
+the United States.
+
+This product includes software developed by others and redistributed
+according to license agreement. See doc/third_party_readme.txt for
+further details.
+
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c) (1) (ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c) (1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+
+                          Cadence Design Systems, Inc. 
+                          2655 Seely Avenue
+                          San Jose, CA 95134
+                          Phone: 408.943.1234
+
+For technical assistance visit http://support.cadence.com.
+
+JasperGold Apps Analysis Session - /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/jgproject/sessionLogs/session_0
+
+/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/jgproject/jg.log
+INFO: successfully checked out license "jasper_fao".
+INFO: reading configuration file "/home/pandeyap/.config/jasper/jaspergold.conf".
+% # Root of repo (path is already correct)
+% set ROOT_DIR [file normalize [file join [pwd] ../..]]
+/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval
+% 
+% # Analyze RTL + assertions (Jasper 2018 uses analyze, NOT read_*)
+% analyze -sv \
+  $ROOT_DIR/rtl/fifo.sv \
+  $ROOT_DIR/formal/jasper/assertion_wrapper.sv
+[-- (VERI-1482)] Analyzing Verilog file '/opt-shared-v2/eda/cadence/jasper_2018.09p001/lib/verilog/packages/std/std.sv' into library 'std'
+[-- (VERI-1482)] Analyzing Verilog file '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/rtl/fifo.sv'
+[-- (VERI-1482)] Analyzing Verilog file '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/assertion_wrapper.sv'
+[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/assertion_wrapper.sv(22): 'DEPTH' is not declared
+[ERROR (VERI-1072)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/assertion_wrapper.sv(27): module 'llm_assertion_wrapper' ignored due to previous errors
+Summary of errors detected:
+	[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/assertion_wrapper.sv(22): 'DEPTH' is not declared
+	[ERROR (VERI-1072)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/formal/jasper/assertion_wrapper.sv(27): module 'llm_assertion_wrapper' ignored due to previous errors
+ERROR (ENL034): 2 errors detected in the design file(s).
+
+ERROR: problem encountered at line 5 in file run_fpv.tcl
+
+INFO (IPL005): Received request to exit from the console.
+INFO: Waiting for proof threads to stop...
+INFO: Proof threads stopped.
