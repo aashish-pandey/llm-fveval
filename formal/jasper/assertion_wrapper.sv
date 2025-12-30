@@ -21,5 +21,15 @@ module llm_assertion_wrapper;
   );
 
   `include "ASSERTION_FILE"
+  assert property (ASSERTION_NAME);
 
+  // `include "/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a005.sv"
+  // assert property (p_not_full_and_empty);
+
+    // property p_sanity;
+    //   @(posedge clk) disable iff (!rst_n)
+    //     1'b1;
+    // endproperty
+
+    // assert property (p_sanity);
 endmodule
