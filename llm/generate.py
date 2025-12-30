@@ -20,7 +20,7 @@ result = subprocess.run(
     capture_output=True
 )
 
-out = Path("llm_outputs/fifo_assertions.sv")
+out = Path("../llm_outputs/fifo_assertions.sv")
 out.parent.mkdir(exist_ok=True)
 out.write_text(result.stdout)
 

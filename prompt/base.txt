@@ -1,9 +1,25 @@
 You are given a SystemVerilog RTL module.
 
-Task:
-Generate SystemVerilog Assertions (SVA) that verify correctness properties of this design.
+Your task is to generate SystemVerilog Assertions (SVA) that are
+STRICTLY compatible with commercial formal verification tools
+(e.g., Cadence JasperGold).
 
-Rules:
-- Output only assertions (property / assert property).
-- Do not include explanations.
-- Do not modify the RTL.
+RULES (MANDATORY):
+1. Output ONLY SystemVerilog code. No explanations, comments, or text.
+2. Assertions MUST be syntactically valid IEEE SystemVerilog.
+3. Assertions MUST reference ONLY signals declared in the given module.
+4. Do NOT invent, rename, or assume any signals.
+5. Each assertion MUST:
+   - Use an explicit clock: @(posedge clk)
+   - Use disable iff (!rst_n)
+6. Assertions MUST be written inside a SystemVerilog module.
+7. Do NOT include initial blocks, always blocks, or procedural code.
+8. Do NOT modify or restate the RTL.
+9. Use simple, single-condition safety properties only.
+10. If unsure, output FEWER assertions rather than incorrect ones.
+
+Output format MUST be:
+
+module llm_assertions;
+  // assertions here
+endmodule
