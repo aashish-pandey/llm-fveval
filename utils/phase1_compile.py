@@ -3,7 +3,12 @@ import shutil
 import json
 from pathlib import Path 
 
-ASSERT_DIR = Path("../llm_outputs/assertions")
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent  
+
+WRAPPER_PATH = REPO_ROOT / "formal/jasper/assertion_wrapper.sv"
+ASSERT_DIR = REPO_ROOT / "llm_outputs/assertions"
+
 OUT_DIR = Path('../llm_outputs/phase1_compile')
 LOG_DIR = OUT_DIR / "logs"
 
@@ -16,7 +21,7 @@ for assertion in sorted(ASSERT_DIR.glob("a*.sv")):
     name = assertion.stem 
     log_file = LOG_DIR / f"{name}.log"
 
-    wrapper_text = Path("assertion_wrapper.sv").read_text()
+    wrapper_text = WRAPPER_PATH.read_text()
     wrapper_text = wrapper_text.replace("ASSERTION_FILE", str(assertion))
 
     Path("assertion_wrapper.sv").write_text(wrapper_text)

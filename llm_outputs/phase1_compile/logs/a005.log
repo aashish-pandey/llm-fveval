@@ -1,0 +1,5 @@
+cd: Too many arguments.
+WARNING: "Linux Mint 21.3" is an unsupported OS, exiting.
+See /opt-shared-v2/eda/cadence/jasper_2018.09p001/doc/INSTALL.pdf for a list of supported platforms.
+Use -allow_unsupported_OS to suppress this warning at your own risk.
+ERROR (ESW046): The file "formal/jasper/compile_only.tcl" does not exist.

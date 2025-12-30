@@ -1,0 +1,22 @@
+{
+  "a001": {
+    "status": "COMPILE_FAIL",
+    "log": "../llm_outputs/phase1_compile/logs/a001.log"
+  },
+  "a002": {
+    "status": "COMPILE_FAIL",
+    "log": "../llm_outputs/phase1_compile/logs/a002.log"
+  },
+  "a003": {
+    "status": "COMPILE_FAIL",
+    "log": "../llm_outputs/phase1_compile/logs/a003.log"
+  },
+  "a004": {
+    "status": "COMPILE_FAIL",
+    "log": "../llm_outputs/phase1_compile/logs/a004.log"
+  },
+  "a005": {
+    "status": "COMPILE_FAIL",
+    "log": "../llm_outputs/phase1_compile/logs/a005.log"
+  }
+}
