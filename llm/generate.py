@@ -2,7 +2,9 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MODEL = "qwen2.5-coder:7b"
+# MODEL = "qwen2.5-coder:7b"
+# MODEL = "llama3.1:8b"
+MODEL = "deepseek-coder:1.3b"
 
 rtl = Path(ROOT/"rtl"/"fifo.sv").read_text()
 prompt = Path(ROOT/"prompt"/"base.txt").read_text()
@@ -20,7 +22,7 @@ result = subprocess.run(
     capture_output=True
 )
 
-out = Path("../llm_outputs/fifo_assertions.sv")
+out = Path("../llm_outputs/deep_seek_fifo_assertions.sv")
 out.parent.mkdir(exist_ok=True)
 out.write_text(result.stdout)
 
