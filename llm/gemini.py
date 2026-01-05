@@ -18,7 +18,7 @@ RTL:
 # -------------------------
 # Gemini call (simple)
 # -------------------------
-client = genai.Client(api_key="AIzaSyA1Xds4CrVsVm9NIBlOcar4jobSVdl1j6Q")
+client = genai.Client(api_key="")
 
 response = client.models.generate_content(
     model="gemini-2.0-flash",
