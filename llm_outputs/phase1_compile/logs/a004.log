@@ -1,14 +1,4 @@
-#----------------------------------------
-# JasperGold Version Info
-# tool      : JasperGold 2018.09
-# platform  : Linux 5.15.0-164-generic
-# version   : 2018.09p001 64 bits
-# build date: 2018.11.02 18:06:33 PDT
-#----------------------------------------
-# started Mon Jan 05 12:03:53 EST 2026
-# hostname  : ece-rh810-10
-# pid       : 3251061
-# arguments : '-label' 'session_0' '-console' 'ece-rh810-10:33093' '-nowindow' '-style' 'windows' '-data' 'AQAAADx/////AAAAAAAAA3oBAAAAEABMAE0AUgBFAE0ATwBWAEU=' '-proj' '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a001/sessionLogs/session_0' '-init' '-hidden' '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a001/.tmp/.initCmds.tcl' 'compile_only.tcl'
+JasperGold Apps 2018.09p001 64 bits 2018.11.02 18:06:33 PDT
 
 Any disclosure about the Cadence Design Systems software or its use
 model to any third party violates the written Non-Disclosure Agreement
@@ -43,9 +33,9 @@ Rights at 48 CFR 52.227-19, as applicable.
 
 For technical assistance visit http://support.cadence.com.
 
-JasperGold Apps Analysis Session - /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a001/sessionLogs/session_0
+JasperGold Apps Analysis Session - /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a004/sessionLogs/session_0
 
-/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a001/jg.log
+/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a004/jg.log
 INFO: successfully checked out licenses "jasper_interactive" and "jasper_fao".
 INFO: reading configuration file "/home/pandeyap/.config/jasper/jaspergold.conf".
 % set ROOT_DIR [file normalize [file join [pwd] ../]]
@@ -62,15 +52,17 @@ INFO: reading configuration file "/home/pandeyap/.config/jasper/jaspergold.conf"
 [-- (VERI-1482)] Analyzing Verilog file '/opt-shared-v2/eda/cadence/jasper_2018.09p001/lib/verilog/packages/std/std.sv' into library 'std'
 [-- (VERI-1482)] Analyzing Verilog file '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/rtl/fifo.sv'
 [-- (VERI-1482)] Analyzing Verilog file '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/utils/assertion_wrapper.sv'
-[INFO (VERI-1328)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/utils/assertion_wrapper.sv(23): analyzing included file '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a001.sv'
-[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a001.sv(3): 'DEPTH' is not declared
+[INFO (VERI-1328)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/utils/assertion_wrapper.sv(23): analyzing included file '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a004.sv'
+[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a004.sv(3): 'do_wr' is not declared
+[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a004.sv(3): 'do_rd' is not declared
 [ERROR (VERI-1072)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/utils/assertion_wrapper.sv(35): module 'llm_assertion_wrapper' ignored due to previous errors
 Summary of errors detected:
-	[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a001.sv(3): 'DEPTH' is not declared
+	[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a004.sv(3): 'do_wr' is not declared
+	[ERROR (VERI-1128)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/llm_outputs/assertions/a004.sv(3): 'do_rd' is not declared
 	[ERROR (VERI-1072)] /home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/utils/assertion_wrapper.sv(35): module 'llm_assertion_wrapper' ignored due to previous errors
-ERROR (ENL034): 2 errors detected in the design file(s).
+ERROR (ENL034): 3 errors detected in the design file(s).
 
 ERROR: problem encountered at line 8 in file compile_only.tcl
 
-INFO: Waiting for proof threads to stop...
-INFO: Proof threads stopped.
+% 
+[TIMEOUT]

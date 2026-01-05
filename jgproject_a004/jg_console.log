@@ -1,0 +1,42 @@
+2026-01-05 12:04:57.459246 (3251470) main____ INFO    ----------------------------------------
+2026-01-05 12:04:57.459285 (3251470) main____ INFO    JasperGold version info
+2026-01-05 12:04:57.459293 (3251470) main____ INFO      tool      : JasperGold 2018.09
+2026-01-05 12:04:57.459298 (3251470) main____ INFO      version   : 2018.09p001 64 bits
+2026-01-05 12:04:57.459301 (3251470) main____ INFO      build date: 2018.11.02 18:06:33 PDT
+2026-01-05 12:04:57.459303 (3251470) main____ INFO    ----------------------------------------
+2026-01-05 12:04:57.459306 (3251470) main____ INFO    Runtime info:
+2026-01-05 12:04:57.459309 (3251470) main____ INFO      platform  : Linux 5.15.0-164-generic x86_64
+2026-01-05 12:04:57.459312 (3251470) main____ INFO      hostname  : ece-rh810-10
+2026-01-05 12:04:57.459315 (3251470) main____ INFO      pid       : 3251470
+2026-01-05 12:04:57.459318 (3251470) main____ INFO      arguments : '-style' 'windows' '-no_gui' '-proj' '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a004' '-tcl' 'compile_only.tcl'
+2026-01-05 12:04:57.459320 (3251470) main____ INFO    ----------------------------------------
+2026-01-05 12:04:57.459322 (3251470) main____ INFO    System resource limits info:
+2026-01-05 12:04:57.459325 (3251470) main____ INFO      virtual memory: unlimited
+2026-01-05 12:04:57.459328 (3251470) main____ INFO      cpu time      : unlimited
+2026-01-05 12:04:57.459333 (3251470) main____ INFO      stack size    : 8388608 B
+2026-01-05 12:04:57.459337 (3251470) main____ INFO      core file size: 0 B
+2026-01-05 12:04:57.459341 (3251470) main____ INFO      open files    : 1048576
+2026-01-05 12:04:57.459344 (3251470) main____ INFO      file size     : unlimited
+2026-01-05 12:04:57.459346 (3251470) main____ INFO    ----------------------------------------
+2026-01-05 12:04:57.459348 (3251470) main____ INFO    Memory statistics:
+2026-01-05 12:04:57.459351 (3251470) main____ INFO      total physical memory  : 65519456 kB
+2026-01-05 12:04:57.459353 (3251470) main____ INFO      free physical memory   : 57963684 kB
+2026-01-05 12:04:57.459355 (3251470) main____ INFO      committed address space: 2790220 kB
+2026-01-05 12:04:57.459357 (3251470) main____ INFO    ----------------------------------------
+2026-01-05 12:04:57.459375 (3251470) main____ INFO    Important environment variables:
+2026-01-05 12:04:57.459380 (3251470) main____ INFO      CDS_LIC_FILE: '27432@police.ceas1.uc.edu'
+2026-01-05 12:04:57.459382 (3251470) main____ INFO    ----------------------------------------
+2026-01-05 12:04:57.462652 (3251470) lic_core INFO    Initializing license system ...
+2026-01-05 12:04:57.464282 (3251470) lic_core INFO    ... license system initialized.
+2026-01-05 12:04:57.465176 (3251470) lic__man INFO    Claim 'main' for <ui>.
+2026-01-05 12:04:57.465198 (3251470) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2026-01-05 12:04:57.500370 (3251470) lic_core INFO    ... (1) checkout succeeded
+2026-01-05 12:04:57.500453 (3251470) lic__man INFO    Claim 'fpv' for <ui>.
+2026-01-05 12:04:57.501653 (3251470) lic_core INFO    (2) checking out 'jasper_fpv' ...
+2026-01-05 12:04:57.514383 (3251470) lic_core INFO    ... (2) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2026-01-05 12:04:57.514421 (3251470) lic_core INFO    (3) checking out 'jasper_fao' ...
+2026-01-05 12:04:57.567011 (3251470) lic_core INFO    ... (3) checkout succeeded
+2026-01-05 12:04:57.567651 (3251477) stdio___ INFO    Starting STDIN reader (tty: yes, tty name: '/dev/pts/4')
+2026-01-05 12:04:57.597626 (3251470) session_ INFO    Starting analysis session with session id 'session_0' ...
+2026-01-05 12:04:57.598438 (3251470) session_ INFO    Analysis session with session id 'session_0' started (pid: 3251480)
+2026-01-05 12:04:58.592830 (3251470) session_ INFO    Analysis session 'session_0' connected to the console (host: 10.63.1.191:36830)

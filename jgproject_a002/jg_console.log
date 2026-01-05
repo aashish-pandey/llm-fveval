@@ -1,0 +1,49 @@
+2026-01-05 12:04:22.924714 (3251225) main____ INFO    ----------------------------------------
+2026-01-05 12:04:22.924750 (3251225) main____ INFO    JasperGold version info
+2026-01-05 12:04:22.924757 (3251225) main____ INFO      tool      : JasperGold 2018.09
+2026-01-05 12:04:22.924761 (3251225) main____ INFO      version   : 2018.09p001 64 bits
+2026-01-05 12:04:22.924764 (3251225) main____ INFO      build date: 2018.11.02 18:06:33 PDT
+2026-01-05 12:04:22.924767 (3251225) main____ INFO    ----------------------------------------
+2026-01-05 12:04:22.924769 (3251225) main____ INFO    Runtime info:
+2026-01-05 12:04:22.924771 (3251225) main____ INFO      platform  : Linux 5.15.0-164-generic x86_64
+2026-01-05 12:04:22.924775 (3251225) main____ INFO      hostname  : ece-rh810-10
+2026-01-05 12:04:22.924777 (3251225) main____ INFO      pid       : 3251225
+2026-01-05 12:04:22.924780 (3251225) main____ INFO      arguments : '-style' 'windows' '-no_gui' '-proj' '/home/pandeyap/Desktop/MS_Thesis/llm_assertions/llm-fveval/jgproject_a002' '-tcl' 'compile_only.tcl'
+2026-01-05 12:04:22.924782 (3251225) main____ INFO    ----------------------------------------
+2026-01-05 12:04:22.924784 (3251225) main____ INFO    System resource limits info:
+2026-01-05 12:04:22.924787 (3251225) main____ INFO      virtual memory: unlimited
+2026-01-05 12:04:22.924789 (3251225) main____ INFO      cpu time      : unlimited
+2026-01-05 12:04:22.924795 (3251225) main____ INFO      stack size    : 8388608 B
+2026-01-05 12:04:22.924798 (3251225) main____ INFO      core file size: 0 B
+2026-01-05 12:04:22.924802 (3251225) main____ INFO      open files    : 1048576
+2026-01-05 12:04:22.924805 (3251225) main____ INFO      file size     : unlimited
+2026-01-05 12:04:22.924807 (3251225) main____ INFO    ----------------------------------------
+2026-01-05 12:04:22.924808 (3251225) main____ INFO    Memory statistics:
+2026-01-05 12:04:22.924811 (3251225) main____ INFO      total physical memory  : 65519456 kB
+2026-01-05 12:04:22.924813 (3251225) main____ INFO      free physical memory   : 57971908 kB
+2026-01-05 12:04:22.924815 (3251225) main____ INFO      committed address space: 2791416 kB
+2026-01-05 12:04:22.924817 (3251225) main____ INFO    ----------------------------------------
+2026-01-05 12:04:22.924833 (3251225) main____ INFO    Important environment variables:
+2026-01-05 12:04:22.924838 (3251225) main____ INFO      CDS_LIC_FILE: '27432@police.ceas1.uc.edu'
+2026-01-05 12:04:22.924840 (3251225) main____ INFO    ----------------------------------------
+2026-01-05 12:04:22.927846 (3251225) lic_core INFO    Initializing license system ...
+2026-01-05 12:04:22.928101 (3251225) lic_core INFO    ... license system initialized.
+2026-01-05 12:04:22.929388 (3251225) lic__man INFO    Claim 'main' for <ui>.
+2026-01-05 12:04:22.929717 (3251225) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2026-01-05 12:04:22.960833 (3251225) lic_core INFO    ... (1) checkout succeeded
+2026-01-05 12:04:22.960900 (3251225) lic__man INFO    Claim 'fpv' for <ui>.
+2026-01-05 12:04:22.960922 (3251225) lic_core INFO    (2) checking out 'jasper_fpv' ...
+2026-01-05 12:04:22.971969 (3251225) lic_core INFO    ... (2) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2026-01-05 12:04:22.972020 (3251225) lic_core INFO    (3) checking out 'jasper_fao' ...
+2026-01-05 12:04:23.009428 (3251225) lic_core INFO    ... (3) checkout succeeded
+2026-01-05 12:04:23.009694 (3251232) stdio___ INFO    Starting STDIN reader (tty: yes, tty name: '/dev/pts/4')
+2026-01-05 12:04:23.041907 (3251225) session_ INFO    Starting analysis session with session id 'session_0' ...
+2026-01-05 12:04:23.042965 (3251225) session_ INFO    Analysis session with session id 'session_0' started (pid: 3251235)
+2026-01-05 12:04:24.278514 (3251225) session_ INFO    Analysis session 'session_0' connected to the console (host: 10.63.1.191:47958)
+2026-01-05 12:04:24.686455 (3251225) main____ INFO    About to exit: request to exit with status 0 received from analysis session 'session_0'
+2026-01-05 12:04:24.720115 (3251225) session_ INFO    Analysis session 'session_0' disconnected.
+2026-01-05 12:04:24.720278 (3251225) lic__man INFO    Unclaim everything for 'session_0'.
+2026-01-05 12:04:24.720439 (3251225) session_ INFO    Process for analysis session 'session_0' has exited with exit status '0'.
+2026-01-05 12:04:26.698131 (3251232) stdio___ INFO    STDIN reader requested to stop.
+2026-01-05 12:04:26.698207 (3251232) stdio___ INFO    STDIN reader stopped.
+2026-01-05 12:04:26.698770 (3251225) main____ INFO    Exiting with status 0.
